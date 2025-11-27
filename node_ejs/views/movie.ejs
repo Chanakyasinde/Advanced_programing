@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+
+<body>
+    <h1>Movie: <%=title%></h1>
+    <p>Release Year: <%=releaseYear%></p>
+    <p>Rating: <%=rating%></p>
+    <h4>Actors:</h4>
+    
+    <ul>
+        <% actors.forEach((item)=>{%>
+            <li>
+                <%=item%>
+            </li>
+            <%});%>
+    </ul>
+
+</body>
+</html>
